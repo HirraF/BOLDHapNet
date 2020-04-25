@@ -134,7 +134,7 @@ Once you are happy, click 'See table', to see your dataset with the rows removes
 
 ### Following this the application will automatically: 
 1.	Retrieve sequences for your final chosen specimens. 
-2.	Align the sequences using the default Clustal W algorithm.  
+2.	Align the sequences using the default Clustal W algorithm. (gap opening= 10, gap extension= 6.6) 
 Sequences are then returned for the user to view or download in fasta format. 
 
 ## Viewing sequences. 
