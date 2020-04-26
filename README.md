@@ -46,18 +46,20 @@ The below guide walks the user through an example of how this application may be
 ## Step 1.
 BOLD SYSTEMS is a database which contains information on various specimens from animal, fungi and plant kingdoms. The database holds barcode sequences from specimens alongside metadata about the specimens. This application provides and easy to use interface to the BOLD Systems handling both the download of sequence and accompanying metadata.  Users specify which datasets they would like to download directly. 
 The application follows the guidance of the BOLD Systems API and allows users to enter a search string that follows the following rules:
-1.	Search via the following parameters: taxon, ids, bin, container, institution, researchers and geo. Further details on each search parameter and what they refer to in the BOLD Database are available here 
-2.	Format your query as follows: parameter=values.
-For example, to search for records belonging to the genus Gerres
-```taxon=Gerres```
-Or to search for records belonging specifically to the species Gerres oyena
-```taxon= Gerres oyena```
-3.	Search for multiple values of a parameter by placing a ‘|’ between each value
-For example, search for records belonging to the species Gerres oyena and Gerres japonica
-```taxon= Gerres oyena|Gerres japonica```
-4.	Multiple parameters can be combined, and they must be '&' delimited indicating logical 'AND'. 
-For example, search for specimens of Gerres oyena or Gerres japonica from India:
-```taxon= Gerres oyena|Gerres japonica & geo=India```
+- Search via the following parameters: taxon, ids, bin, container, institution, researchers and geo. 
+	
+	Further details on each search parameter and what they refer to in the BOLD Database are available here 
+
+- Format your query as follows: parameter=values.
+
+ 	For example, to search for records belonging to the genus Gerres: ```taxon=Gerres```
+	Or to search for records belonging specifically to the species Gerres oyena: ```taxon= Gerres oyena```	
+- Search for multiple values of a parameter by placing a ‘|’ between each value
+	
+	For example, search for records belonging to the species Gerres oyena and Gerres japonica: ```taxon= Gerres oyena|Gerres japonica```
+- Multiple parameters can be combined, and they must be '&' delimited indicating logical 'AND'. 
+
+	For example, search for specimens of Gerres oyena or Gerres japonica from India: ```taxon= Gerres oyena|Gerres japonica & geo=India```
 
 When searching for values made of multiple word e.g. 'Costa Rica', keep the space between words
 
