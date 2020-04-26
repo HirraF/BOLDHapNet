@@ -14,6 +14,7 @@ Download the most recent version of Cytoscape here: https://cytoscape.org
 ### Loading the application: 
 -	Open either R, or  Rstudio
 -	At the console type the following: ```shiny::runGitHub(“BOLDHapNet”,“HirraF”)```
+- Ensure you are connected to the internet. 
 The application will load! 
 If you use this application routinely you may wish to install the following packages by running the following code in the R console: 
 ```
@@ -232,4 +233,6 @@ Many more customisation options are available see Cytoscape manuals for all feat
 
 
 
-
+## Troubleshooting
+- if incorrect inputs are given descriptive error messages will show
+- If your search term for Step 1 is formatted correctly but still not working ensure you are: connected to the internet, BOLD Systems is not closed for maintenance
