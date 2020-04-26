@@ -32,13 +32,13 @@ BOLDHapNet allows users to create haplotype networks using the DNA Barcode data 
 This application works with all operating systems. 
 
 ### FEATURES:
-•	Graphical user interface, meaning no programmatic knowledge required. 
-•	Interface to BOLD SYSTEMS API for data download.
-•	Step by step interface reveals each step sequentially turn making the tool easy to follow. 
-•	Tools for sequence preparation and alignment. 
-•	Easy pie chart creation
-•	Automatic generation of graph in Cytoscape
-•	Help guides available for each step- simply click the steps’s ‘?’ icon. 
+- Graphical user interface, meaning no programmatic knowledge required. 
+- Interface to BOLD SYSTEMS API for data download.
+- Step by step interface reveals each step sequentially turn making the tool easy to follow. 
+- Tools for sequence preparation and alignment. 
+- Easy pie chart creation
+- Automatic generation of graph in Cytoscape
+- Help guides available for each step- simply click the steps’s ‘?’ icon. 
 
 ## STEP BY STEP WALKTHROUGH:
 The below guide walks the user through an example of how this application may be used. We will explain how to interact with each step and what is going on in each step. 
