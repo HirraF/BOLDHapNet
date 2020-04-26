@@ -51,15 +51,12 @@ The application follows the guidance of the BOLD Systems API and allows users to
 	Further details on each search parameter and what they refer to in the BOLD Database are available here 
 
 - Format your query as follows: parameter=values.
-
- 	For example, to search for records belonging to the genus Gerres: ```taxon=Gerres```
-	Or to search for records belonging specifically to the species Gerres oyena: ```taxon= Gerres oyena```	
-- Search for multiple values of a parameter by placing a ‘|’ between each value
-	
-	For example, search for records belonging to the species Gerres oyena and Gerres japonica: ```taxon= Gerres oyena|Gerres japonica```
+ 		For example, to search for records belonging to the genus Gerres: ```taxon=Gerres```
+		Or to search for records belonging specifically to the species Gerres oyena: ```taxon= Gerres oyena```	
+- Search for multiple values of a parameter by placing a ‘|’ between each value	
+		For example, search for records belonging to the species Gerres oyena and Gerres japonica: ```taxon= Gerres oyena|Gerres japonica```
 - Multiple parameters can be combined, and they must be '&' delimited indicating logical 'AND'. 
-
-	For example, search for specimens of Gerres oyena or Gerres japonica from India: ```taxon= Gerres oyena|Gerres japonica & geo=India```
+		For example, search for specimens of Gerres oyena or Gerres japonica from India: ```taxon= Gerres oyena|Gerres japonica & geo=India```
 
 When searching for values made of multiple word e.g. 'Costa Rica', keep the space between words
 
